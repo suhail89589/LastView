@@ -3,11 +3,22 @@ import React from "react";
 const Navbar = () => {
   return (
     <>
-      <nav className="">
-        <h1 className="">LastView</h1>
-        <button>Login</button>
-        <li>Contact</li>
-        <li>About</li>
+      <nav className="nav">
+        <a href="/" className="title">
+          LastView
+        </a>
+        <ul>
+          <li>
+            <a href="/contact">Contact</a>
+          </li>
+          <li>
+            <a href="/about">About</a>
+          </li>
+
+          <li>
+            <a href="/login">Login</a>
+          </li>
+        </ul>
       </nav>
     </>
   );
