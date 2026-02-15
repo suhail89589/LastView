@@ -1,0 +1,17 @@
+.hero{
+      display:flex;
+      padding:120px 20px;
+      background:#3c3c3c;
+      justify-content:center;
+}
+h1{
+   color:red; 
+   display:center;
+
+}
+#img{
+    width:30%;
+    padding:0 50px;
+    border:black 2px;
+
+}

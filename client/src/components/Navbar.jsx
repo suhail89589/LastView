@@ -1,25 +1,28 @@
 import React from "react";
-
+import "./Navbar.css"
 const Navbar = () => {
   return (
     <>
-      <nav className="nav">
-        <a href="/" className="title">
-          LastView
-        </a>
-        <ul>
-          <li>
-            <a href="/contact">Contact</a>
-          </li>
-          <li>
-            <a href="/about">About</a>
-          </li>
+      <div className="nav">
+        <div className="Logo">LastView
+            
+        </div>
+            
+        <div className="nav-items">
+          <ul>
+            <li>
+              <a href="/contact">Contact</a>
+            </li>
+            <li>
+              <a href="/about">About</a>
+            </li>
 
-          <li>
-            <a href="/login">Login</a>
-          </li>
-        </ul>
-      </nav>
+            <li>
+              <a href="/login">Login</a>
+            </li>
+          </ul>
+        </div>
+      </div>
     </>
   );
 };
