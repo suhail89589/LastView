@@ -1,29 +1,25 @@
 import React from "react";
-import "./Navbar.css"
+import "./Navbar.css";
+
 const Navbar = () => {
   return (
-    <>
-      <div className="nav">
-        <div className="Logo">LastView
-            
+    <nav className="navbar">
+      <div className="nav-container">
+       
+        <div className="logo">
+          Last<span>View</span>
         </div>
-            
-        <div className="nav-items">
-          <ul>
-            <li>
-              <a href="/contact">Contact</a>
-            </li>
-            <li>
-              <a href="/about">About</a>
-            </li>
 
-            <li>
-              <a href="/login">Login</a>
-            </li>
-          </ul>
-        </div>
+        
+        <ul className="nav-links">
+          <li><a href="/about" className="nav-link">About</a></li>
+          <li><a href="/contact" className="nav-link">Contact</a></li>
+          <li>
+            <a href="/login" className="login-btn">Login</a>
+          </li>
+        </ul>
       </div>
-    </>
+    </nav>
   );
 };
 
