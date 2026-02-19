@@ -9,7 +9,7 @@ const Login = () => {
             <h4>Sign in to start solving</h4>
             <input type="email" name="@example.com"></input>
             <input type="text" name="password"></input>
-            <button></button>
+            <button className="btn"></button>
           </form>
         </div>
       </div>
