@@ -6,7 +6,6 @@ import Hero from "./components/Hero";
 import Features from "./components/Features";
 import Footer from "./components/Footer";
 
-
 const Home = () => {
   return (
     <>
@@ -19,18 +18,14 @@ const Home = () => {
 const App = () => {
   return (
     <Router>
-      
       <Navbar />
 
       <Routes>
-        
         <Route path="/" element={<Home />} />
 
-        
         <Route path="/login" element={<Login />} />
       </Routes>
 
-      
       <Footer />
     </Router>
   );
